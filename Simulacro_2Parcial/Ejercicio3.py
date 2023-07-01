@@ -32,6 +32,7 @@ def ordenar_burbujeo(legajos, nombres):
                 nombres[j+1] = aux
     return legajos, nombres
 
+
 def binary_search(lista, valor):
     index_low = 0
     index_max = len(lista) - 1
